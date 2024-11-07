@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: url(./bg.webp);
+width: 100%;
+background-position: center;
+background-size: cover;
+height: 100vh;
+font-family: "Poppins", serif;
+position: relative;
+}
+.nav{
+    background-color: pink;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+     align-items: center; 
+    justify-content: space-between;
+}
+.nav h1{
+    width: 16%;
+    cursor:pointer;
+}
+ul,li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+ul.li.a:hover{
+    background-color: orangered;
+    transition: .4s ease;
+}
+.section1{
+    color: white;
+    padding-left: 7%;
+}
+h2{
+     font-size: 50px;
+}
+span{
+    color: orangered;
+}
+.section1 h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    /* color: brown; */
+}
+.section3{
+    padding-left: 7%;
+}
+.section3 p{
+    color: white;
+}
+.section3 button{
+    padding: 5px 10px;
+    border-radius: 1px 18px;
+    border: 0px;
+    background-color: lightseagreen;
+}
+.section3 a:hover{
+    /* background-color: brown;
+     */
+}
+.icons a img{
+width: 30px;
+padding: 10px ;
+}
+.icons{
+    padding-left: 7%;
+    color: white;
+}
+.icons a img:hover{
+    cursor: pointer;
+    color: gold;
+}
+fieldset{
+    width: 40%;
+}
+tr td button{
+  
+    padding: 5px 15px 5px 5px;
+    border-radius: 10px;
+    background-color: lightskyblue;
+}
+td tr{
+    text-align: center;
+}
